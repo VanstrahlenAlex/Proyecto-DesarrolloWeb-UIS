@@ -1,0 +1,255 @@
+:root {
+    --color-primario: #f27524;
+    --color-secundario: #FFC300;
+    --blanco: white;
+    --fuente-logo: font-family: 'Praise', cursive;
+    --gris: gray;
+}
+
+
+/*Header INDEX*/
+
+html {
+    font-family: var(--fuente-logo);
+}
+
+.header {
+    background-color: var(--color-primario);
+    justify-items: end;
+    text-decoration: none;
+    size: 10px;
+    margin: 0;
+    color: var(--blanco);
+}
+
+.logo {
+    color: var(--blanco);
+    font-family: var(--fuente-logo);
+}
+
+.nav-link {
+    color: var(--blanco);
+    margin: 0 15px;
+}
+
+.collapse {
+    display: flex;
+    flex-grow: calc(2, 1fr);
+    color: var(--blanco);
+}
+
+.sesion {
+    float: right;
+    color: var(--blanco);
+    cursor: pointer;
+}
+
+.pestaña {
+    color: var(--blanco);
+}
+
+
+/*Body*/
+
+
+/*Seccion Presentación*/
+
+.pregunta {
+    text-align: center;
+    background-image: url(/imagenes/Screenshot_1.png);
+    padding: 190px;
+    color: var(--blanco);
+    width: 100%;
+    height: 200px;
+}
+
+.titulo-presentacion {
+    font-size: 75px;
+    color: var(--blanco);
+}
+
+
+/*FIN*/
+
+
+/*Sección categorias*/
+
+.categorias {
+    text-align: center;
+}
+
+.fas {
+    font-size: 50px;
+}
+
+.far {
+    font-size: 50px;
+}
+
+.fab {
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.rubro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--gris);
+    margin: 15px 15px;
+    padding: 15px 15px;
+    border-radius: 20px;
+}
+
+.rubros-lista {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.nombre-categoria {
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 25px;
+    font-family: monospace;
+    color: var(--blanco);
+}
+
+.nuestras-categorias {
+    padding: 25px 25px;
+    margin: 25px 25px;
+}
+
+
+/*Sección resultados*/
+
+.resultados {
+    background-color: var(--color-primario);
+}
+
+.datos {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 15px;
+    margin: 15px 15px;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.dato {
+    padding: 15px 15px;
+    margin: 15px 15px;
+    color: var(--blanco);
+}
+
+
+/*sección funcion */
+
+.funcion {
+    background-color: var(--gris);
+    margin: 15px 0;
+    padding: 15px 15px;
+}
+
+.titulo-funcion {
+    text-align: center;
+    color: var(--blanco);
+}
+
+.utilidades-funcion {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.utilidad {
+    background-color: var(--color-primario);
+    border-radius: 15px;
+    padding: 15px 15px;
+    margin: 15px 15px;
+    color: var(--blanco);
+    text-align: center;
+}
+
+.utilidad-logo {
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.fa-comments-dollar {
+    font-size: 100px;
+}
+
+.fa-buromobelexperte {
+    font-size: 100px;
+}
+
+.fa-user-check {
+    font-size: 100px;
+}
+
+
+/*Sección de comentarios*/
+
+.comentarios {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.article-comentarios {
+    background-color: var(--color-secundario);
+    text-align: center;
+    padding: 15px 15px;
+    margin: 15px 15px;
+    border-radius: 25px;
+}
+
+.comentario {
+    color: var(--blanco);
+}
+
+.foto-comentario {
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+
+
+/*Sección de recomendaciones*/
+
+.titulo-recomendaciones {
+    text-align: center;
+}
+
+
+/*Seccion ciudades*/
+
+.seccion-ciudades {
+    background-color: var(--color-primario);
+    padding: 15px 15px;
+}
+
+.titulo-ciudad {
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.ciudades {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 15px 15px;
+    text-align: center;
+    margin: 15px 15px;
+}
+
+
+/*Footer*/
+
+.footer {
+    background-color: gray;
+    font-family: var(--fuente-logo);
+    padding: 30px;
+}
+
+.facebook {
+    font-size: 50px;
+}
