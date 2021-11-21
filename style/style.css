@@ -4,6 +4,7 @@
     --blanco: white;
     --fuente-logo: font-family: 'Praise', cursive;
     --gris: gray;
+    --colorFormulario: #F8CB39;
 }
 
 
@@ -50,6 +51,15 @@ html {
 
 
 /*Body*/
+
+
+/*Footer*/
+
+.redes-sociales {
+    padding: 15px 15px;
+    margin: 15px 15px;
+    font-size: 100px;
+}
 
 
 /*Seccion Presentación*/
@@ -241,6 +251,13 @@ html {
     margin: 15px 15px;
 }
 
+.ciudad {
+    background-color: var(--color-secundario);
+    padding: 15px 15px;
+    margin: 15px 15px;
+    border-radius: 15px;
+}
+
 
 /*Footer*/
 
@@ -252,4 +269,54 @@ html {
 
 .facebook {
     font-size: 50px;
+}
+
+
+/*** Pagina EresProfsional.html ***/
+
+.titulo-perfil {
+    padding: 15px 15px;
+    margin: 15px 15px;
+    text-align: center;
+    background-color: var(--blanco);
+}
+
+.profesional-perfiles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: var(--color-secundario);
+}
+
+.article-perfil {
+    padding: 15px 15px;
+    margin: 15px 15px;
+}
+
+.perfil-profesional {
+    background-color: var(--gris);
+    padding: 15px 15px;
+    margin: 15px 15px;
+    border-radius: 15px;
+    color: var(--blanco);
+    font-family: var(--fuente-logo);
+    text-align: justify;
+}
+
+
+/** Pagina contactar.html **/
+
+.formulario-contacto {
+    background-color: var(--colorFormulario);
+    border-radius: 25px;
+}
+
+.contacto {
+    padding: 15px 15px;
+    margin: 15px 15px;
+}
+
+.titulo-contacto {
+    text-align: center;
+    padding: 15px 15px;
+    margin: 15px 15px;
 }
