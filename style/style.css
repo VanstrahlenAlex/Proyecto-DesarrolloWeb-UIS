@@ -241,6 +241,7 @@ html {
 .titulo-ciudad {
     text-align: center;
     padding: 15px 15px;
+    margin: 15px 15px;
 }
 
 .ciudades {
@@ -256,6 +257,12 @@ html {
     padding: 15px 15px;
     margin: 15px 15px;
     border-radius: 15px;
+}
+
+.proximas-ciudades {
+    text-align: center;
+    padding: 15px 15px;
+    margin: 15px 15px;
 }
 
 
@@ -319,4 +326,27 @@ html {
     text-align: center;
     padding: 15px 15px;
     margin: 15px 15px;
+}
+
+.contenido-formulario {
+    background-color: var(--gris);
+    padding: 15px 15px;
+    margin: 15px 15px;
+    border-radius: 15px;
+}
+
+.formulario {
+    margin: 15px 15px;
+    padding: 15px 15px;
+    color: var(--blanco);
+    display: grid;
+}
+
+.email {
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 10px;
+    margin: 15px 0px;
 }
